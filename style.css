@@ -7,32 +7,3 @@ body{
 	text-align: center;
 }
 
-.navcontainer{
-	/* I had width: 80%; here but I commented it out */
-	margin: 0 auto;
-}
-
-header{
-	background: #55d6aa;
-}
-
-nav ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-
-nav li {
-display: inline-block;
-text-align: center;
-padding-top: 25px;
-padding-bottom: 10px;
-}
-
-nav a{
-	color: #444;
-	text-decoration: none;
-	text-transform: uppercase;
-	font-size: 18px;
-}
-
