@@ -31,3 +31,23 @@ tr{
 	padding: 5px;
 	border: 1px solid black;
 }
+
+#pad{
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+#spaceforform{
+	margin-right: 75px;
+	margin-left: 75px;
+}
+
+#ggr4{
+	margin-right: 75px;
+	margin-left: 75px;
+}
+
+#ggr5{
+	margin-right: 75px;
+	margin-left: 75px;
+}

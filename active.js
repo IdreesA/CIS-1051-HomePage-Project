@@ -13,6 +13,9 @@ function squareAmount(){
 	root = Number(root);
 	var square = root * root;
 	document.querySelector('#squareResultText').innerHTML = "Result: " + square;
-	
+
 }
 
+function contactResponse(){
+	alert("Thanks for reaching out to us! We'll be getting back to you soon.");
+}  //Still need to figure out why this part is not working
