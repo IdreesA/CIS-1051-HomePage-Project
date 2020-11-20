@@ -102,19 +102,42 @@
 
 			<label for="operator">Choose an operator:</label>
 
-			<select id="operator">
+			<select id="operator" onchange="getOperator();">
 			  <option value="addition" selected>Addition</option>
 			  <option value="subtraction">Subtraction</option>
 			  <option value="multiplication">Multiplication</option>
 			  <option value="division">Division</option>
 			</select>
 			<br>
-			<button type="button" class="btn btn-success" id="CalcSubmit">Calculate</button>
+
+			<form onsubmit="calculate(); return false;">
+				<button type="button" class="btn btn-success" id="CalcSubmit" onclick="calculate();">Calculate</button>
+			</form>
+
 			<script type="text/javascript">
-				var operator = document.getElementById("operator").value;
-				document.querySelector('#operator').onchange = function() {
-					operator = document.getElementById("operator").value;
+				
+				function getOperator(){
+					var operator = document.getElementById('operator').value;
+					console.log(operator);
+
 				}
+
+				function calculate(){
+					var num1 = document.getElementById('num1').value;
+					var num2 = document.getElementById('num2').value;
+					num1 = Number(num1);
+					num2 = Number(num2);
+					operator = String(operator);
+
+					var resultAdd = num1 + num2;
+					var resultSubtract = num1 - num2;
+					var resultMultiply = num1 * num2;
+					var resultDivide = num1 / num2;
+
+					//Alhamdulillah it mostly seems to be working. Now I just need to figure out how to use if statements for the operator thing
+				}
+
+
 			</script>
 
 	  	</p>
