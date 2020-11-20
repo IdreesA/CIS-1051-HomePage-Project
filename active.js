@@ -8,3 +8,11 @@ let num2 = document.querySelector('#num2');
 
 */
 
+function squareAmount(){
+	var root = document.getElementById('rootvalue').value;
+	root = Number(root);
+	var square = root * root;
+	document.querySelector('#squareResultText').innerHTML = "Result: " + square;
+	
+}
+
