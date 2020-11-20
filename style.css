@@ -7,6 +7,10 @@ body{
 	text-align: center;
 }
 
+.make-bold{
+	font-weight: bold;
+}
+
 table{
 	border: 1px solid black;
 	margin-left: auto;
