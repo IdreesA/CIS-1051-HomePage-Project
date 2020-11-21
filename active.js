@@ -1,4 +1,5 @@
 
+
 /*
 let calcbutton = document.querySelector('#CalcSubmit');
 let body = document.querySelector('body');
@@ -18,4 +19,7 @@ function squareAmount(){
 
 function contactResponse(){
 	alert("Thanks for reaching out to us! We'll be getting back to you soon.");
-}  //Still need to figure out why this part is not working
+}  
+
+
+
